@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+#landing-page-figure {
+    margin: 0px;
+}
+
+#landing-page-image {
+    width: 100%;
+}
