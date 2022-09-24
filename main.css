@@ -16,22 +16,41 @@ header {
     margin-bottom: 2rem;
 }
 
+header nav {
+    margin-right: 10vw;
+}
+
 header ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    flex-wrap: wrap;
 }
 
 header ul li {
-    margin: 0 1rem;
+    display: flex;
     font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
     font-size: 1rem;
     font-weight: bold;
+    margin: 1rem 1rem;
+    flex-wrap: nowrap;
 }
 
 header ul li a {
-    color: #333;
+    color: orange;
+    background-color: rgb(28, 28, 87);
+    padding: 1rem;
+    border-radius: 1rem;
     text-decoration: none;
+}
+
+header ul li a:hover,
+header ul li a:focus {
+    background-color: orange;
+    color: rgb(28, 28, 87);
+    cursor: pointer;
 }
 
 header img {
